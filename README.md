@@ -13,5 +13,7 @@ EventManager.Trigger_Event(string eventName);
 EventManager_Broker.OnCall(); //will automatically create manager
 ```
 
+> `EventManager` will automatically create at first call `Start_Listening`. You don't have to care about creating manager.
+
 ## Links
 [unity learn](https://learn.unity.com/tutorial/create-a-simple-messaging-system-with-events#)
